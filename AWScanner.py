@@ -99,8 +99,6 @@ def convert_to_csv(region):
         except:
             continue  # Try the next command if the current one fails
 
-    print(f"{Colors.RED}[ERROR]{Colors.RESET} Failed to convert {json_file} to CSV.")
-
 
 def main():
     if os.geteuid() != 0:
