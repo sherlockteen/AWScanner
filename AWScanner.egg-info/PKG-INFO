@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: AWScanner
+Version: 2
+Summary: AWS IP range scanner with Masscan and TLS analysis
+Home-page: https://github.com/sherlockteen/AWScanner
+Author: q1ncite
+Author-email: q1ncite@proton.me
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+License-File: LICENSE

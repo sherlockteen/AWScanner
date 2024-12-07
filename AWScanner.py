@@ -99,6 +99,8 @@ def convert_to_csv(region):
         except:
             continue  # Try the next command if the current one fails
 
+    print(f"{Colors.RED}[ERROR]{Colors.RESET} Failed to convert {json_file} to CSV.")
+
 
 def main():
     if os.geteuid() != 0:
@@ -119,6 +121,9 @@ def main():
                 print(f"{Colors.RED}[ERROR]{Colors.RESET} You must specify a correct region.")
                 continue
             scan_region(region, int(rate))
+        elif user_input == "exit":
+            print("See you later!")
+            exit(0)
 
 
 def print_help():

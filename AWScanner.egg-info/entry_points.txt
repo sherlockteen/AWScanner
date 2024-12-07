@@ -1,0 +1,2 @@
+[console_scripts]
+AWScanner = AWScanner.main:main

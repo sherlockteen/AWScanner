@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+AWScanner.egg-info/PKG-INFO
+AWScanner.egg-info/SOURCES.txt
+AWScanner.egg-info/dependency_links.txt
+AWScanner.egg-info/entry_points.txt
+AWScanner.egg-info/top_level.txt
